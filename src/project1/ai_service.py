@@ -5,6 +5,8 @@ import streamlit as st
 from dotenv import load_dotenv
 from groq import Groq
 
+from project1.models import JobD, MatchResult, Resume
+
 load_dotenv()
 
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
