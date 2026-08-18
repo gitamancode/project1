@@ -11,7 +11,11 @@ class JobD(BaseModel):
 
 
 class MatchResult(BaseModel):
-    score: float
+    skills_score: float
+    experience_score: float
+    education_score: float
+    responsibilities_score: float
+    preferred_skills_score: float
     details: dict
 
 

@@ -1,8 +1,8 @@
 import time
 from pathlib import Path
 
-from .ai_service import extract_job_details, final_score, parse_resume
-from .resume_parser import read_resume
+from project1.ai_service import extract_job_details, final_score, parse_resume
+from project1.resume_parser import read_resume
 
 
 def process_resumes(job_description: str, resume_folder: str = "Resumes"):
