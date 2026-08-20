@@ -19,7 +19,7 @@ if not GROQ_API_KEY:
 
 client = Groq(api_key=GROQ_API_KEY)
 
-MODEL = "openai/gpt-oss-120b"
+MODEL = "openai/gpt-oss-20b"
 
 
 def extract_job_details(job_description: str) -> JobD:
