@@ -107,6 +107,20 @@ The results also include:
 - Responsibility assessment
 - Preferred skills assessment
 
+### 7. Progressive Resume Analysis
+
+Resumes are processed sequentially, and each candidate's complete analysis is displayed immediately after processing.
+
+This allows users to review completed candidate results while the remaining resumes continue to be analyzed.
+
+The interface also provides:
+
+- Live processing status
+- Current resume indicator
+- Overall progress tracking
+- Individual error handling for failed resumes
+- Final candidate ranking after all resumes are processed 
+
 ---
 
 # 🏗️ System Architecture
